@@ -29,6 +29,27 @@
         z-index: -2;
         filter: blur(15px);
     }
+    &:hover:before{
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        z-index: -1;
+        background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+    }
+    &:hover:after{
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        z-index: -2;
+        background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+        filter: blur(40px);
+    }
 
     &__title{
         font-size: 2rem;

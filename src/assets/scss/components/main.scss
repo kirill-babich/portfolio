@@ -8,9 +8,14 @@
         margin:0 0 2rem;
     }
     &__content{
-        max-width: 600px;
+        max-width: 1200px;
     }
     p{
         margin:0 0 1rem;
+        max-width: 1200px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px;
     }
 }
